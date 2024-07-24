@@ -12,3 +12,4 @@
 - Minecraft PE
 - 绝区零
 - Zenless Zone Zero
+- 元气骑士(Soul Knight)
