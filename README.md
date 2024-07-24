@@ -8,3 +8,5 @@
 - Genshin Impact
 - 王者荣耀
 - Honor Of Kings
+- 我的世界(网易)
+- Minecraft PE
