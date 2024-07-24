@@ -8,7 +8,7 @@ function set_offset(policy0, policy2, policy5, policy7)
 end
 
 function load_fas(pid, pkg)
-    if (pkg == "com.miHoYo.Yuanshen" or pkg == "com.miHoYo.ys.mi" or pkg == "com.miHoyo.ys.bilibili")
+    if (pkg == "com.miHoYo.Yuanshen" or pkg == "com.miHoYo.ys.mi" or pkg == "com.miHoyo.ys.bilibili" or pkg == "com.miHoYo.GenshinImpact")
     then
         set_offset(0, 0, -800000, 0)
     end
