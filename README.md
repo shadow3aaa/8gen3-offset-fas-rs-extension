@@ -11,4 +11,4 @@
 - 我的世界(网易)
 - Minecraft PE
 - 绝区零
-- Zenless
+- Zenless Zone Zero
