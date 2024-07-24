@@ -6,3 +6,5 @@
 
 - 原神(官服，米服，B服)
 - Genshin Impact
+- 王者荣耀
+- Honor Of Kings
