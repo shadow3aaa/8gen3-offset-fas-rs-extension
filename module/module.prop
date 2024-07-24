@@ -4,3 +4,4 @@ version=v0.1.0
 versionCode=1
 author=shadow3
 description=fas-rs cpu freq offset for 8gen3
+updateJson=https://github.com/shadow3aaa/8gen3-offest-fas-rs-extension/raw/master/update.json
