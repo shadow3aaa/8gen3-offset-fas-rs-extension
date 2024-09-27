@@ -25,6 +25,8 @@ function load_fas(pid, pkg)
         set_offset(0, 0, -700000, 0)
     elseif (pkg == "com.netease.nshm") then
         set_offset(0, 0, -1000000, 0)
+    elseif (pkg == "com.miHoYo.hkrpg") then
+        set_offset(0, 0, -900000, 0)
     end
 end
 
