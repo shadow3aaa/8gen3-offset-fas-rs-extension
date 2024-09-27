@@ -17,7 +17,7 @@
 ## **申请适配**
 
 1. 确认游戏没有被此插件适配
-2. 确认设备搭载`Snapdragon 8 Gen 3 Mobile Platform` soc
+2. 确认设备搭载`Snapdragon 8 Gen 3 Mobile Platform` soc, 并使用asoul-opt线程放置模块
 3. 开一个issue，带有不少于5分钟的scene帧率记录长截图和游戏包名
 
 ## **Request Adaptation**
