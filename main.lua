@@ -13,16 +13,16 @@ function load_fas(pid, pkg)
         set_offset(0, 0, -800000, 0)
     elseif (pkg == "com.tencent.tmgp.sgame" or pkg == "com.levelinfinite.sgameGlobal")
     then
-        set_offset(-600000, 0, -700000, 0)
+        set_offset(0, 0, -700000, 0)
     elseif (pkg == "com.netease.x19" or pkg == "com.mojang.minecraftpe")
     then
-        set_offset(-600000, -700000, -1000000, 0)
+        set_offset(0, 0, -1000000, 0)
     elseif (pkg == "com.miHoYo.Nap" or pkg == "com.miHoYo.zenless")
     then
-        set_offset(-600000, -1500000, -1400000, 0)
+        set_offset(0, 0, -1400000, 0)
     elseif (pkg == "com.ChillyRoom.DungeonShooter")
     then
-        set_offset(-600000, -700000, -700000, 0)
+        set_offset(0, 0, -700000, 0)
     elseif (pkg == "com.netease.nshm") then
         set_offset(0, 0, -1000000, 0)
     end
