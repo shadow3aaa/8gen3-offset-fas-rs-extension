@@ -1,37 +1,34 @@
-API_VERSION = 1
+API_VERSION = 3
 
-function set_offset(policy0, policy2, policy5, policy7)
-    set_policy_freq_offset(0, policy0)
-    set_policy_freq_offset(2, policy2)
-    set_policy_freq_offset(5, policy5)
-    set_policy_freq_offset(7, policy7)
-end
+set_ignore_policy(0, true)
+set_ignore_policy(5, true)
 
 function load_fas(pid, pkg)
     if (pkg == "com.miHoYo.Yuanshen" or pkg == "com.miHoYo.ys.mi" or pkg == "com.miHoyo.ys.bilibili" or pkg == "com.miHoYo.GenshinImpact")
     then
-        set_offset(0, -80000, 0, 0)
+        set_policy_freq_offset(2, -80000)
     elseif (pkg == "com.tencent.tmgp.sgame" or pkg == "com.levelinfinite.sgameGlobal")
     then
-        set_offset(0, -100000, 0, 0)
+        set_policy_freq_offset(2, -100000)
     elseif (pkg == "com.netease.x19" or pkg == "com.mojang.minecraftpe")
     then
-        set_offset(0, -1000000, 0, 0)
+        set_policy_freq_offset(2, -1000000)
     elseif (pkg == "com.miHoYo.Nap" or pkg == "com.miHoYo.zenless")
     then
-        set_offset(0, -1400000, 0, 0)
+        set_ignore_policy(2, true)
     elseif (pkg == "com.ChillyRoom.DungeonShooter")
     then
-        set_offset(0, -50000, 0, 0)
+        set_policy_freq_offset(2, -50000)
     elseif (pkg == "com.netease.nshm") then
-        set_offset(0, -300000, 0, 0)
+        set_policy_freq_offset(2, -300000)
     elseif (pkg == "com.miHoYo.hkrpg") then
-        set_offset(0, -600000, 0, 0)
+        set_policy_freq_offset(2, -600000)
     elseif (pkg == "com.tencent.lolm") then
-        set_offset(0, -600000, 0, 0)
+        set_policy_freq_offset(2, -600000)
     end
 end
 
 function unload_fas()
-    set_offset(0, 0, 0, 0)
+    set_ignore_policy(2, false)
+    set_policy_freq_offset(2, 0)
 end
