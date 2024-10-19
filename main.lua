@@ -1,7 +1,6 @@
 API_VERSION = 3
 
 set_ignore_policy(0, true)
-set_ignore_policy(5, true)
 
 function load_fas(pid, pkg)
     if (pkg == "com.miHoYo.Yuanshen" or pkg == "com.miHoYo.ys.mi" or pkg == "com.miHoyo.ys.bilibili" or pkg == "com.miHoYo.GenshinImpact")
