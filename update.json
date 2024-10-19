@@ -1,6 +1,6 @@
 {
-  "versionCode": 2,
-  "version": "v0.2.0",
-  "zipUrl": "https://github.com/shadow3aaa/8gen3-offset-fas-rs-extension/releases/download/v0.2.0/fas-rs-extension-8gen3-offset.zip",
-  "changelog": "https://github.com/shadow3aaa/8gen3-offset-fas-rs-extension/raw/master/SUPPORTED_GAMES.md"
+  "versionCode": 3,
+  "version": "v0.3.0",
+  "zipUrl": "https://github.com/shadow3aaa/8gen3-offset-fas-rs-extension/releases/download/v0.3.0/fas-rs-extension-8gen3-offset.zip",
+  "changelog": "https://github.com/shadow3aaa/8gen3-offset-fas-rs-extension/raw/main/SUPPORTED_GAMES.md"
 }
